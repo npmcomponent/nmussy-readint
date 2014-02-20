@@ -1,27 +1,21 @@
 {
-  "author": {
-    "name": "Jimmy Gaussen",
-    "email" : "jimmy.gaussen@gmail.com",
-    "url" : "http://nmussy.github.io/"
-  },
-  "homepage": "http://nmussy.github.io/readint",
-  "name": "readint",
+  "name": "nmussy-readint",
   "description": "Localized written number parsing",
   "version": "0.2.2",
-  "repository": {
-    "type" : "git",
-    "url": "https://github.com/nmussy/readint.git"
-  },
-  "devDependencies": {
-    "better-assert": "~1.0.0",
-    "mocha": "~1.12.0"
-  },
-  "scripts": {
-    "test": "make"
-  },
-  "main": "./bin/readint.js",
-  "keywords": [ "written", "number", "parsing", "parse", "integer", "int", "localized", "english", "french", "spanish", "german"],
-  "engines": {
-    "node": ">= 0.6.0"
-  }
+  "keywords": [
+    "written",
+    "number",
+    "parsing",
+    "parse",
+    "integer",
+    "int",
+    "localized",
+    "english",
+    "french",
+    "spanish",
+    "german"
+  ],
+  "main": "bin/readint.js",
+  "dependencies": {},
+  "license": "MIT"
 }
